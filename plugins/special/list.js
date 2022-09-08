@@ -44,7 +44,7 @@ exports.run = {
             teks += data.map(([jid, _]) => '	◦ @' + jid.replace(/@.+/, '')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
@@ -56,7 +56,7 @@ exports.run = {
             teks += data.map(cmd => '	◦ ' + isPrefix + cmd).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
@@ -68,7 +68,7 @@ exports.run = {
             teks += data.map(jid => '	◦ @' + jid.replace(/@.+/, '')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© Vannesa v2.2 (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
@@ -80,7 +80,7 @@ exports.run = {
             teks += data.map(plugin => '	◦ ' + plugin + '.js').join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© Vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
@@ -92,7 +92,7 @@ exports.run = {
             teks += data.map(([jid, data]) => '	◦ @' + jid.replace(/@.+/, '') + '\n	 *Limit* : ' + Func.formatNumber(data.limit)).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© Vannesa (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
