@@ -105,7 +105,7 @@ exports.run = {
             teks += data.sort((a, b) => b[1].lastseen - a[1].lastseen).map(([jid, data]) => '	◦ @' + jid.replace(/@.+/, '') + '\n	     *Chat* : ' + Func.formatNumber(data.chat) + '\n	     *Lastchat* : ' + moment(data.lastseen).format('DD/MM/YY HH:mm:ss')).join('\n') + '\n\n'
             teks += global.footer
             client.sendMessageModify(m.chat, teks, m, {
-               title: '© neoxr-bot v2.2.0 (Public Bot)',
+               title: '© Vanessa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
