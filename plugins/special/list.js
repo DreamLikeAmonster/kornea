@@ -47,7 +47,7 @@ exports.run = {
                title: '© vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          } else if (args[0] == 2) {
             const data = global.db.setting.error
@@ -59,7 +59,7 @@ exports.run = {
                title: '© vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          } else if (args[0] == 3) {
             const data = global.db.setting.mimic
@@ -71,7 +71,7 @@ exports.run = {
                title: '© Vannesa v2.2 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          } else if (args[0] == 4) {
             const data = global.db.setting.pluginDisable
@@ -83,7 +83,7 @@ exports.run = {
                title: '© Vannesa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          } else if (args[0] == 5) {
             const data = Object.entries(global.db.users).filter(([_, data]) => data.premium)
@@ -95,7 +95,7 @@ exports.run = {
                title: '© Vannesa (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          } else if (args[0] == 6) {
             if (!isOwner) return client.reply(m.chat, global.status.owner, m)
@@ -108,7 +108,7 @@ exports.run = {
                title: '© Vanessa v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d826ed4128ba873017479.jpg')
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/6fc29ba2e7c6e5b1494c1.jpg')
             })
          }
       } catch (e) {
